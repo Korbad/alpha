@@ -1,6 +1,7 @@
 ---
+- ansible.builtin.import_playbook: ansible_user.yml
 - hosts: all
   connection: local
   tasks:
-  - debug:
-      var: ansible_facts
+  -  debug:
+      var: ansible_facts 

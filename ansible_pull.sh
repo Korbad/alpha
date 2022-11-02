@@ -1,2 +1,2 @@
 #!/bin/bash
-ansible-pull -U https://github.com/Korbad/alpha.git
+ansible-pull -U https://github.com/Korbad/alpha.git --checkout main
